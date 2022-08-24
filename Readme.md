@@ -32,8 +32,7 @@ The DAOs use JPA to work with the database.
 
 ```
 Note:
-Java reflection mechanism was used to construct the database queries
-to preserve the application memory, sacrificing the response speed.
+Java reflection mechanism was used in constructing database requests to take advantade of DB side indexing.
 ```
 
 [2]:(https://tailwindcss.com/)
