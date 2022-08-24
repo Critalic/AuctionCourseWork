@@ -28,11 +28,11 @@ the necessary business logic.
 
 The service classes interact with the database via [data access objects](./src/main/java/com/example/cw/dao). 
 
-The DAOs use JPA to work with the database.
+The DAOs use JPA to work with the database and Criteria API for requst construction.
 
 ```
 Note:
-Java reflection mechanism was used in constructing database requests to take advantade of DB side indexing.
+Java reflection mechanism was used in constructing database requests to take advantage of indexing on the DB side.
 ```
 
 [2]:(https://tailwindcss.com/)
